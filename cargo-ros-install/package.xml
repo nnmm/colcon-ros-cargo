@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cargo-ros-install</name>
+  <version>0.0.0</version>
+  <description>Cargo build/check wrapper that installs files as described in REP 122</description>
+  <maintainer email="nnmmgit@gmail.com">nnmm</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
